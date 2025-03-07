@@ -1,9 +1,3 @@
-spring:
-  kafka:
-    bootstrap-servers: localhost:9092
-    consumer:
-      group-id: test-group
-      key-deserializer: org.apache.kafka.common.serialization.StringDeserializer
-      value-deserializer: org.apache.kafka.common.serialization.StringDeserializer
+
 server:
   port: 8000
